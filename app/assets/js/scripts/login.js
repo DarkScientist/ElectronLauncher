@@ -294,7 +294,7 @@ loginButton.addEventListener('click', () => {
             toggleOverlay(false)
         })
         toggleOverlay(true)
-        loggerLogin.log('Error while logging in.', err)
+        loggerLogin.log('Erreur lors de la connexion.', err)
     })
 
 })
