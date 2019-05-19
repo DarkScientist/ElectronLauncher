@@ -18,10 +18,10 @@ function getCurrentPlatform(){
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'electronlauncher',
-        productName: 'Electron Launcher',
+        appId: 'hynitylauncher',
+        productName: 'Hynity Launcher',
         artifactName: '${productName}.${ext}',
-        copyright: 'Copyright © 2018-2019 Daniel Scalzi',
+        copyright: 'Copyright © 2018-2019 Daniel Scalzi - DarkScientist_ - Hynity',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -50,10 +50,10 @@ builder.build({
         },
         linux: {
             target: 'AppImage',
-            maintainer: 'Daniel Scalzi',
-            vendor: 'Daniel Scalzi',
-            synopsis: 'Modded Minecraft Launcher',
-            description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.',
+            maintainer: 'Daniel Scalzi - Hynity',
+            vendor: 'Daniel Scalzi - Hynity',
+            synopsis: 'Hynity Launcher',
+            description: 'Le launcher officiel d\'Hynity !',
             category: 'Game'
         },
         compression: 'maximum',
