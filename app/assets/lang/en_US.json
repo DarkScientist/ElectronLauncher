@@ -1,10 +1,14 @@
 {
     "html": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "avatarOverlay": "Edit"
 =======
         "avatarOverlay": "Waaa"
 >>>>>>> Custom by Hynity
+=======
+        "avatarOverlay": "Waaa"
+>>>>>>> master
     },
     "js": {
         "login": {
