@@ -328,17 +328,9 @@ function asyncSystemScan(mcVersion, launchAfter = true){
                     'Je l\'installe manuellement'
                 )
                 setOverlayHandler(() => {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    setLaunchDetails('Preparing Java Download..')
-                    sysAEx.send({task: 'changeContext', class: 'AssetGuard', args: [ConfigManager.getCommonDirectory(),ConfigManager.getJavaExecutable()]})
-                    sysAEx.send({task: 'execute', function: '_enqueueOpenJDK', argsArr: [ConfigManager.getDataDirectory()]})
-=======
-=======
->>>>>>> master
                     setLaunchDetails('Préparation du téléchargement de Java...')
+                    sysAEx.send({task: 'changeContext', class: 'AssetGuard', args: [ConfigManager.getCommonDirectory(),ConfigManager.getJavaExecutable()]})
                     sysAEx.send({task: 'execute', function: '_enqueueOracleJRE', argsArr: [ConfigManager.getDataDirectory()]})
->>>>>>> Custom by Hynity
                     toggleOverlay(false)
                 })
                 setDismissHandler(() => {
